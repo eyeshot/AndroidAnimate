@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:gravity="center_vertical"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	>
+	
+    <Button  
+              android:id="@+id/start"
+              android:layout_centerVertical="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:background="@drawable/charge_btn_selector"
+	/>
+
+
+
+ <FrameLayout android:id="@+id/charging_layer"
+		android:gravity="center" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:visibility="gone">
+		
+     <com.android.androidanimate.VerticalProgressBar
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:id="@+id/verticalRatingBar1"
+	        android:layout_width="50dp"
+	        android:progress="0"
+	        android:max="100"
+	        android:layout_gravity="center"
+	        android:layout_marginBottom="-10dp"
+	        android:progressDrawable="@drawable/barcolor"
+	        android:layout_height="70dp" />
+		
+     
+
+	    <ImageView android:src="@drawable/charging"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:layout_gravity="center"
+	               
+	               />
+
+	    <ImageView
+		    android:id="@+id/outer_img"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:background="@anim/outer_animate"
+		    />
+
+	    
+	    
+		
+
+   </FrameLayout>
+</FrameLayout>
+

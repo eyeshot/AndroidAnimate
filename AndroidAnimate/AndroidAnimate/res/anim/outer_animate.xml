@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:duration="50"  android:drawable="@drawable/circle01"/>
+    <item android:duration="50"  android:drawable="@drawable/circle02"/>
+    <item android:duration="50"  android:drawable="@drawable/circle03"/>
+    <item android:duration="50"  android:drawable="@drawable/circle04"/>
+    <item android:duration="50"  android:drawable="@drawable/circle05"/>
+    
+</animation-list>
